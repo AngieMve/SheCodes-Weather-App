@@ -1,0 +1,114 @@
+body {
+  font-family: arial, sans-serif;
+  padding: 150px;
+  background: url(https://cdn.hovia.com/app/uploads/beautiful-cherry-blossom-branch-wallpaper-mural-Plain.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.col-2 {
+  text-decoration: none;
+  border-radius: 3px;
+  transition: all 300ms ease-in-out;
+}
+
+.col-2:hover {
+  text-decoration: none;
+  display: block;
+  background-color: #e9a0d2;
+}
+h1 {
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  color: rgb(14, 14, 14);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.weather-app-wrapper {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  padding: 20px;
+  border: 3px solid #e64074;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px rgb(239, 142, 184);
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+.form-control {
+  background-color: #f56ff7;
+}
